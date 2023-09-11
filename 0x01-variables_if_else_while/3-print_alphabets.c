@@ -1,19 +1,17 @@
 #include <stdio.h>
-/** 
- * main - Entry Point
- * Return: always 0 (Success)
+/**
+ * main - Funtion of the task
+ * Return: always zero
  */
 int main(void)
 {
-	char c;
+	char i;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			if ((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c);
-			c++;
-		}
-	putchar ('\n');
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
+
+	for (i = 'A'; i <= 'Z'; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
