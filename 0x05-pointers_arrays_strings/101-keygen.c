@@ -8,6 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int pass[100];
@@ -30,6 +31,7 @@ int main(void)
 			break;
 		}
 	}
+
 	return (0);
 
 }
