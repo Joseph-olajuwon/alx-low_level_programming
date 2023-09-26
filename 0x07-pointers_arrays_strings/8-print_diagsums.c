@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 				suma_2 += a[l];
 			l++;
 		}
-		k++;
+		k--;
 	}
-	printf("%d, %d\n", suma_1, suma_2);
+	printf("%i, %i\n", suma_1, suma_2);
 }
